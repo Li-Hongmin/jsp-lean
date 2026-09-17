@@ -1,0 +1,21 @@
+name = "jsp-lean"
+version = "0.1.0"
+defaultTargets = ["JSP000759", "JSP000906", "JSP000625"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.32.0"
+
+[[lean_lib]]
+name = "JSP000759"
+
+[[lean_lib]]
+name = "JSP000906"
+
+[[lean_lib]]
+name = "JSP000625Helpers"
+roots = ["JSP000625Statement", "JSP000625Counting", "JSP000625PowerSeries", "JSP000625Fourier", "JSP000625Kernel", "JSP000625Comparison", "JSP000625Window", "JSP000625Bridge", "JSP000625Upper", "JSP000625Finish", "JSP000625Assembly"]
+
+[[lean_lib]]
+name = "JSP000625"
