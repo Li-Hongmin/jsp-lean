@@ -1,5 +1,7 @@
 # jsp-lean
 
+[![Lean build and axiom audit](https://github.com/Li-Hongmin/jsp-lean/actions/workflows/lean.yml/badge.svg)](https://github.com/Li-Hongmin/jsp-lean/actions/workflows/lean.yml)
+
 Lean 4 formalizations for Justin Sun Prize problems (Erdős problems catalog).
 
 Toolchain: Lean `leanprover/lean4:v4.32.0`, Mathlib `v4.32.0` (pinned in `lake-manifest.json`).
